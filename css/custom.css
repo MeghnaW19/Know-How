@@ -1,0 +1,200 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*-----------------Body------------------------------*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #112233;
+}
+
+/*-------------- ------------Header------------------------------*/
+
+/*---------------------------Header-Wrap-------------------------*/
+header .header_wrap{
+    padding:0px;
+    margin: 0px;
+    height:500px;
+    background: url('../images/field-summer-sun-meadow.jpg') no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/*---------------------------------------Header-Logo--------------------------*/
+header .header_wrap nav .logo{
+    color:white;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px black;
+    padding-left:8%;
+    float: left;
+}
+
+header .header_wrap nav .logo h1 a{
+    text-decoration: none;
+    color:inherit;
+}
+
+header .header_wrap .jumbotron{
+    position: absolute;
+    top:200px;
+    left:35%;
+    font-size:1.56em;
+    color: grey;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px red;
+}
+/*---------------------------Header-Navigation--------------------------------*/
+header .header_wrap nav{
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    position: fixed;
+    background: inherit;
+}
+
+header .header_wrap nav ul{
+    list-style-type: none;
+    padding-right: 8px;
+    float:right;
+}
+
+header .header_wrap nav ul li{
+    display: inline-block;
+}
+
+header .header_wrap nav ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+header .header_wrap nav ul li a:hover{
+    color: blanchedalmond;
+    background: #c0a689;
+
+}
+
+/*---------------------------------For Every Section in Div-------------------*/
+div section, main article,section article,section header{
+    background:#112233;
+    color:grey;
+    padding: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+/*----------------------------------Parallax Div----------------------------*/
+.parallax{
+    height:120px;
+    background: url('../images/non-incense-smell-dark-52732.jpeg') no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*-------------------------------------------Section-Header------------------------------*/
+.section_header{
+    width:100%;
+    float:left;
+    background:#03172c;
+    height: 70px;
+    padding-left: 150px;
+    color:grey;
+    font-weight: bold;
+}
+
+
+/*-------------------------------------------------About Section--------------------------*/
+#about_image{
+    text-align: center;
+}
+
+
+#citypic{
+    margin-top: 80px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border: 2px solid grey;
+}
+
+#about_info{
+    text-align: justify;
+}
+
+/*------------------------------------Destination Section------------------------------------*/
+#destination article img{
+    width: 250px;
+    height: 250px;
+    border-radius: 120px;
+    margin:auto;
+}
+
+#destination article p{
+    text-align: justify;
+}
+
+#destination article a{
+    text-decoration: none;
+    color: grey;
+    float:right;
+}
+
+#destination article a:hover{
+    color: black;
+}
+
+
+/*------------------------------------------Contact Section---------------------------------*/
+#contact section{
+    text-align: center;
+}
+
+#contact section i{
+    font-size: 36px;
+}
+
+/*--------------------------------------------Footer---------------------------*/
+footer{
+    height:80px;
+    padding: 10px 0px;
+    color:grey;
+    text-align: center;
+    background:rgba(0,0,0,.2);
+}
+
+footer nav a{
+    text-decoration: none;
+    color:grey;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+footer nav a:hover{
+    color: black;
+}
+
+#page_link{
+    padding-top: 10px;
+}
+
+#page_link a::after{
+    content: "  /";
+}
+
+#page_link a:last-child::after{
+    content: " ";
+}
+
+#social_link a{
+    font-size: 24px;
+    padding: 10px;
+}
